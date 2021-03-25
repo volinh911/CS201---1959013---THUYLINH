@@ -1,0 +1,102 @@
+h1, h2, h3, nav li {
+  font-family: 'Kiwi Maru', serif;
+
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #131313;
+  padding: 1rem 8rem;
+  z-index: 1000;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+  color: white;
+  font-size: 1.1rem;
+  padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a:active {
+  color: #00BF85;
+}
+
+#navbarSupportedContent > button {
+  background: #00BF85;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.banner{
+  padding-top: 70px;
+}
+
+.banner img{
+  width: 100%;
+  height: 50%;
+}
+
+.banner .carousel-item i{
+  padding-right: 20px;
+}
+
+.intro-text{
+  text-align: center;
+}
+
+.products card {
+  height: 600px;
+  position: relative;
+}
+.products img{
+  height: 300px;
+}
+.products .card-body{
+  padding-top: 150px;
+}
+.products .title{
+  position: absolute;
+  font-size: 20px;
+  bottom: 80px;
+}
+.products .category{
+  position: absolute;
+  padding-top: 20px;
+  bottom: 25px;
+}
+.products .price{
+  position: absolute;
+  padding-top: 20px;
+  bottom: 5px;
+}
+
+.final{
+  padding-top: 80px;
+}
+.final h3{
+  text-align: center;
+  padding-bottom: 30px;
+}
+footer{
+  padding-top: 100px;
+}
